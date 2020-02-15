@@ -1,0 +1,95 @@
+body {
+	background-color: rgb(225, 247, 250);
+    color: rgb(200, 54, 75);
+    font-family: Calibri;
+
+}
+
+h1 {
+	color: rgb(2, 1, 120);
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-family: Calibri;
+	font-weight: 500;
+
+}
+
+a {
+	text-decoration: none;
+    color: rgb(200, 54, 75);
+    font-weight: 600 
+}
+
+
+a:hover {
+	color: rgb(2, 1, 120);
+	font-weight: 900;
+
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background: white;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin: 10px auto;
+    text-align: center;
+
+
+}
+
+#imagen {width: 200px;
+border-radius: 8px;
+}
+
+.btn-blue {
+	background-color: rgb(2, 1, 120);
+	color: white;
+	padding: 8px 12px;
+	border-radius: 5px;
+
+}
+
+.btn-blue:hover {
+	background-color: rgb(10,10,180);
+	color: white;
+
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+
+
+
+
